@@ -102,9 +102,29 @@ D-RAGon_Psyche/
 ---
  
 ## Knowledge Base
- 
-17 organizational psychology books across 3 layers — core org psych, workplace stress & burnout, and behavioral/cognitive foundations. See [full corpus architecture in Notion](https://www.notion.so/D-RAGon_Psyche-Organizational-Psychology-Knowledge-Retrieval-System-311ff95a70998028839ed8f591fde4fe).
- 
+
+17 organizational psychology books across 3 layers:
+
+**Core Org Psych**
+- Organizational Behavior — Robbins & Judge
+- Industrial and Organizational Psychology — Paul Levy
+- Work and Organizational Psychology — John Arnold
+- Leadership in Organizations — Gary Yukl
+- The Oxford Handbook of Organizational Climate and Culture
+
+**Workplace Stress & Burnout**
+- Occupational Health Psychology — Leka & Houdmont
+- The Burnout Epidemic — Jennifer Moss
+- Why Zebras Don't Get Ulcers — Robert Sapolsky
+- The Stress Proof Brain — Melanie Greenberg
+- Full Catastrophe Living — Jon Kabat-Zinn
+
+**Behavioral & Cognitive Foundations**
+- Emotional Intelligence — Daniel Goleman
+- The Fearless Organization — Amy Edmondson
+- Thinking, Fast and Slow — Daniel Kahneman
+- Influence + Pre-Suasion — Robert Cialdini
+- *(+ 3 more)*
 ---
  
 ## Built By
