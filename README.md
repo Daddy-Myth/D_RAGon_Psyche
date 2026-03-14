@@ -1,20 +1,36 @@
 # 🐉 D-RAGon_Psyche
 > A psychologist in your pocket — evidence-grounded, not opinion-driven.
  
-**D-RAGon_Psyche** is a locally-run RAG system that provides evidence-backed workplace wellbeing recommendations grounded in organizational psychology literature. It replaces generic chatbot advice with cited, theory-driven guidance drawn from 17 academic books.
+**D-RAGon_Psyche** is a locally-run RAG system that provides evidence-backed workplace wellbeing recommendations grounded in 17 organizational psychology books. It replaces generic chatbot advice with cited, theory-driven guidance drawn from Kahn, Maslach, Demerouti and others.
+ 
+📖 [Full Documentation → Notion](https://www.notion.so/D-RAGon_Psyche-Organizational-Psychology-Knowledge-Retrieval-System-311ff95a70998028839ed8f591fde4fe)
  
 ---
-## Full Documentation
-Docs → [Notion](https://www.notion.so/D-RAGon_Psyche-Organizational-Psychology-Knowledge-Retrieval-System-311ff95a70998028839ed8f591fde4fe)
-
-## What It Does
  
-1. **Guided Intake** — 4 structured questions capture the user's workplace context
-2. **Narrative Synthesis** — answers are compressed into a psychological case summary
-3. **RAG Retrieval** — the narrative queries a Chroma vector store of 8,059 chunks from 17 org psych books
-4. **Psychologist Synthesis** — Llama-3.1-8B generates evidence-backed recommendations citing Kahn, Maslach, Demerouti and others
-5. **Conversational Follow-up** — users can ask follow-up questions with full history awareness
-6. **Parameter Scoring** — 11 psychological parameters (JD-R, MBI, Kahn frameworks) are scored per session
+## How It Works
+ 
+```
+4 Guided Questions → Narrative Synthesis (LLM)
+    ↓
+Parameter Scoring — 11 psych parameters scored 0–10
+    ↓
+ChromaDB Retrieval — top-4 chunks from 8,059 indexed
+    ↓
+Psychologist Synthesis (LLM) — 3 evidence-backed recommendations + cited sources
+    ↓
+Conversational Follow-up — history-aware free chat mode
+```
+ 
+---
+ 
+## Features
+ 
+- **Guided intake** — 4 structured questions build a psychological case narrative
+- **RAG retrieval** — BGE-M3 embeddings over 17 org psych books
+- **Parameter scoring** — JD-R, MBI, and Kahn's frameworks scored per session
+- **Conversational mode** — follow-up questions with query rewriting and 10-turn history
+- **Knowledge graph** — interactive Pyvis graph mapping questions → frameworks → parameters → literature
+- **Fully local** — no API fees, no data leaves your machine
  
 ---
  
@@ -22,38 +38,26 @@ Docs → [Notion](https://www.notion.so/D-RAGon_Psyche-Organizational-Psychology
  
 | Component | Tool |
 |---|---|
-| Embeddings | BGE-M3 (BAAI) |
+| Embeddings | BAAI/bge-m3 |
 | Vector Store | ChromaDB |
 | LLM | Llama-3.1-8B via Ollama |
-| RAG Orchestration | LangChain |
+| Orchestration | LangChain |
 | UI | Gradio |
 | Knowledge Graph | Pyvis |
-| Visualization | Matplotlib |
- 
----
- 
-## Knowledge Base
- 
-17 organizational psychology books including:
-- *The Burnout Epidemic* — Jennifer Moss
-- *Occupational Health Psychology* — Leka & Houdmont
-- *The Fearless Organization* — Amy Edmondson
-- *Organizational Behavior* — Robbins & Judge
-- *Emotional Intelligence* — Daniel Goleman
-- *(and 12 more)*
+| Parameter Scoring | Matplotlib |
  
 ---
  
 ## Evaluation
  
-Benchmarked on 20 workplace scenarios across 6 topics (burnout, stress, motivation, leadership, team dynamics, psychological safety) at 3 severity levels.
+Benchmarked on 20 scenarios across 7 topics (burnout, stress, motivation, leadership, team dynamics, psychological safety, emotional exhaustion) at 3 severity levels.
  
 | Metric | Score |
 |---|---|
-| Recall@4 | 1.0 |
-| Precision@4 | 0.463 |
-| Faithfulness | 0.925 / 1.0 |
-| Answer Quality | 3.825 / 5.0 |
+| Recall@4 | **1.0** |
+| Precision@4 | **0.463** |
+| Faithfulness | **0.925 / 1.0** |
+| Answer Quality | **3.825 / 5.0** |
  
 ---
  
@@ -74,8 +78,10 @@ pip install -r requirements.txt
 # 4. Pull the LLM
 ollama pull llama3.1
  
-# 5. Add your books to Data/Raw_Books/ and run ingestion
-# Then open D-RAGon_Psyche_Production.ipynb and run all cells
+# 5. Add your own org psychology PDFs to Data/Raw_Books/
+#    (see Notion docs for the full book list)
+ 
+# 6. Open D-RAGon_Psyche_Production.ipynb and run all cells
 ```
  
 ---
@@ -85,13 +91,19 @@ ollama pull llama3.1
 ```
 D-RAGon_Psyche/
 ├── Data/
-│   ├── Raw_Books/          # PDF knowledge base
+│   ├── Raw_Books/          # PDF knowledge base (not included, see docs)
 │   └── Eval_Stuff/         # Benchmark files
-├── Chroma/                 # Vector store (generated)
-├── D-RAGon_Psyche.ipynb           # Main dev notebook
-├── D-RAGon_Psyche_Production.ipynb  # Clean production notebook
+├── Chroma/                 # Vector store (generated, gitignored)
+├── D-RAGon_Psyche_Production.ipynb   # Production notebook
+├── D-RAGon_Psyche.ipynb              # Dev notebook
 └── README.md
 ```
+ 
+---
+ 
+## Knowledge Base
+ 
+17 organizational psychology books across 3 layers — core org psych, workplace stress & burnout, and behavioral/cognitive foundations. See [full corpus architecture in Notion](https://www.notion.so/D-RAGon_Psyche-Organizational-Psychology-Knowledge-Retrieval-System-311ff95a70998028839ed8f591fde4fe).
  
 ---
  
