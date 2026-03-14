@@ -106,27 +106,28 @@ D-RAGon_Psyche/
 17 organizational psychology books across 3 layers:
 
 **Layer 1 — Core Org Psych**
-1. Organizational Behavior — Robbins & Judge
-2. Industrial and Organizational Psychology — Paul Levy
-3. Work and Organizational Psychology — John Arnold
-4. The Oxford Handbook of Organizational Climate and Culture — Schneider & Barbera
-5. Leadership in Organizations — Gary Yukl
+- Organizational Behavior — Robbins & Judge
+- Industrial and Organizational Psychology — Paul Levy
+- Work and Organizational Psychology — John Arnold
+- The Oxford Handbook of Organizational Climate and Culture — Schneider & Barbera
+- Leadership in Organizations — Gary Yukl
 
 **Layer 2 — Workplace Stress & Burnout**
-6. Occupational Health Psychology — Leka & Houdmont
-7. The Burnout Epidemic — Jennifer Moss
-8. Why Zebras Don't Get Ulcers — Robert Sapolsky
-9. The Stress Management Handbook — Eva Selhub
-10. Full Catastrophe Living — Jon Kabat-Zinn
-11. The Relaxation Response — Herbert Benson
-12. The Stress Proof Brain — Melanie Greenberg
+- Occupational Health Psychology — Leka & Houdmont
+- The Burnout Epidemic — Jennifer Moss
+- Why Zebras Don't Get Ulcers — Robert Sapolsky
+- The Stress Management Handbook — Eva Selhub
+- Full Catastrophe Living — Jon Kabat-Zinn
+- The Relaxation Response — Herbert Benson
+- The Stress Proof Brain — Melanie Greenberg
 
 **Layer 3 — Behavioral & Cognitive Foundations**
-13. Thinking, Fast and Slow — Daniel Kahneman
-14. Influence — Robert Cialdini
-15. Pre-Suasion — Robert Cialdini
-16. Emotional Intelligence — Daniel Goleman
-17. The Fearless Organization — Amy Edmondson
+- Thinking, Fast and Slow — Daniel Kahneman
+- Influence — Robert Cialdini
+- Pre-Suasion — Robert Cialdini
+- Emotional Intelligence — Daniel Goleman
+- The Fearless Organization — Amy Edmondson
+
 ---
  
 ## Built By
