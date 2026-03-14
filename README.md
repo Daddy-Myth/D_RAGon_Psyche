@@ -4,8 +4,8 @@
 **D-RAGon_Psyche** is a locally-run RAG system that provides evidence-backed workplace wellbeing recommendations grounded in organizational psychology literature. It replaces generic chatbot advice with cited, theory-driven guidance drawn from 17 academic books.
  
 ---
-## 📖 Full Documentation
-[Notion Docs →]([your-notion-link](https://www.notion.so/D-RAGon_Psyche-Organizational-Psychology-Knowledge-Retrieval-System-311ff95a70998028839ed8f591fde4fe?source=copy_link))
+## Full Documentation
+Docs → [Notion](https://www.notion.so/D-RAGon_Psyche-Organizational-Psychology-Knowledge-Retrieval-System-311ff95a70998028839ed8f591fde4fe)
 
 ## What It Does
  
