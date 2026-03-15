@@ -1,0 +1,394 @@
+{
+  "retrieval": [
+    {
+      "id": 1,
+      "topic": "burnout",
+      "severity": "low",
+      "recall@4": 1,
+      "precision@4": 0.75
+    },
+    {
+      "id": 2,
+      "topic": "burnout",
+      "severity": "medium",
+      "recall@4": 1,
+      "precision@4": 0.5
+    },
+    {
+      "id": 3,
+      "topic": "burnout",
+      "severity": "high",
+      "recall@4": 1,
+      "precision@4": 0.5
+    },
+    {
+      "id": 4,
+      "topic": "stress",
+      "severity": "low",
+      "recall@4": 1,
+      "precision@4": 0.25
+    },
+    {
+      "id": 5,
+      "topic": "stress",
+      "severity": "medium",
+      "recall@4": 1,
+      "precision@4": 1.0
+    },
+    {
+      "id": 6,
+      "topic": "stress",
+      "severity": "high",
+      "recall@4": 1,
+      "precision@4": 0.25
+    },
+    {
+      "id": 7,
+      "topic": "motivation",
+      "severity": "low",
+      "recall@4": 1,
+      "precision@4": 0.5
+    },
+    {
+      "id": 8,
+      "topic": "motivation",
+      "severity": "medium",
+      "recall@4": 1,
+      "precision@4": 0.5
+    },
+    {
+      "id": 9,
+      "topic": "motivation",
+      "severity": "high",
+      "recall@4": 1,
+      "precision@4": 0.75
+    },
+    {
+      "id": 10,
+      "topic": "leadership",
+      "severity": "low",
+      "recall@4": 1,
+      "precision@4": 0.5
+    },
+    {
+      "id": 11,
+      "topic": "leadership",
+      "severity": "medium",
+      "recall@4": 1,
+      "precision@4": 0.25
+    },
+    {
+      "id": 12,
+      "topic": "leadership",
+      "severity": "high",
+      "recall@4": 1,
+      "precision@4": 0.25
+    },
+    {
+      "id": 13,
+      "topic": "team_dynamics",
+      "severity": "low",
+      "recall@4": 1,
+      "precision@4": 0.75
+    },
+    {
+      "id": 14,
+      "topic": "team_dynamics",
+      "severity": "medium",
+      "recall@4": 1,
+      "precision@4": 0.25
+    },
+    {
+      "id": 15,
+      "topic": "team_dynamics",
+      "severity": "high",
+      "recall@4": 1,
+      "precision@4": 0.5
+    },
+    {
+      "id": 16,
+      "topic": "psychological_safety",
+      "severity": "low",
+      "recall@4": 1,
+      "precision@4": 0.25
+    },
+    {
+      "id": 17,
+      "topic": "psychological_safety",
+      "severity": "medium",
+      "recall@4": 1,
+      "precision@4": 0.75
+    },
+    {
+      "id": 18,
+      "topic": "psychological_safety",
+      "severity": "high",
+      "recall@4": 1,
+      "precision@4": 0.25
+    },
+    {
+      "id": 19,
+      "topic": "emotional_exhaustion",
+      "severity": "medium",
+      "recall@4": 1,
+      "precision@4": 0.25
+    },
+    {
+      "id": 20,
+      "topic": "emotional_exhaustion",
+      "severity": "high",
+      "recall@4": 1,
+      "precision@4": 0.25
+    }
+  ],
+  "faithfulness": [
+    {
+      "id": 1,
+      "topic": "burnout",
+      "severity": "low",
+      "score": 2
+    },
+    {
+      "id": 2,
+      "topic": "burnout",
+      "severity": "medium",
+      "score": 2
+    },
+    {
+      "id": 3,
+      "topic": "burnout",
+      "severity": "high",
+      "score": 2
+    },
+    {
+      "id": 4,
+      "topic": "stress",
+      "severity": "low",
+      "score": 2
+    },
+    {
+      "id": 5,
+      "topic": "stress",
+      "severity": "medium",
+      "score": 2
+    },
+    {
+      "id": 6,
+      "topic": "stress",
+      "severity": "high",
+      "score": 2
+    },
+    {
+      "id": 7,
+      "topic": "motivation",
+      "severity": "low",
+      "score": 2
+    },
+    {
+      "id": 8,
+      "topic": "motivation",
+      "severity": "medium",
+      "score": 2
+    },
+    {
+      "id": 9,
+      "topic": "motivation",
+      "severity": "high",
+      "score": 1
+    },
+    {
+      "id": 10,
+      "topic": "leadership",
+      "severity": "low",
+      "score": 2
+    },
+    {
+      "id": 11,
+      "topic": "leadership",
+      "severity": "medium",
+      "score": 2
+    },
+    {
+      "id": 12,
+      "topic": "leadership",
+      "severity": "high",
+      "score": 2
+    },
+    {
+      "id": 13,
+      "topic": "team_dynamics",
+      "severity": "low",
+      "score": 2
+    },
+    {
+      "id": 14,
+      "topic": "team_dynamics",
+      "severity": "medium",
+      "score": 1
+    },
+    {
+      "id": 15,
+      "topic": "team_dynamics",
+      "severity": "high",
+      "score": 1
+    },
+    {
+      "id": 16,
+      "topic": "psychological_safety",
+      "severity": "low",
+      "score": 2
+    },
+    {
+      "id": 17,
+      "topic": "psychological_safety",
+      "severity": "medium",
+      "score": 2
+    },
+    {
+      "id": 18,
+      "topic": "psychological_safety",
+      "severity": "high",
+      "score": 2
+    },
+    {
+      "id": 19,
+      "topic": "emotional_exhaustion",
+      "severity": "medium",
+      "score": 2
+    },
+    {
+      "id": 20,
+      "topic": "emotional_exhaustion",
+      "severity": "high",
+      "score": 2
+    }
+  ],
+  "quality": [
+    {
+      "id": 1,
+      "topic": "burnout",
+      "severity": "low",
+      "quality_score": 4.0
+    },
+    {
+      "id": 2,
+      "topic": "burnout",
+      "severity": "medium",
+      "quality_score": 4.0
+    },
+    {
+      "id": 3,
+      "topic": "burnout",
+      "severity": "high",
+      "quality_score": 3.5
+    },
+    {
+      "id": 4,
+      "topic": "stress",
+      "severity": "low",
+      "quality_score": 3.5
+    },
+    {
+      "id": 5,
+      "topic": "stress",
+      "severity": "medium",
+      "quality_score": 4.0
+    },
+    {
+      "id": 6,
+      "topic": "stress",
+      "severity": "high",
+      "quality_score": 3.5
+    },
+    {
+      "id": 7,
+      "topic": "motivation",
+      "severity": "low",
+      "quality_score": 4.0
+    },
+    {
+      "id": 8,
+      "topic": "motivation",
+      "severity": "medium",
+      "quality_score": 4.0
+    },
+    {
+      "id": 9,
+      "topic": "motivation",
+      "severity": "high",
+      "quality_score": 4.0
+    },
+    {
+      "id": 10,
+      "topic": "leadership",
+      "severity": "low",
+      "quality_score": 3.5
+    },
+    {
+      "id": 11,
+      "topic": "leadership",
+      "severity": "medium",
+      "quality_score": 4.0
+    },
+    {
+      "id": 12,
+      "topic": "leadership",
+      "severity": "high",
+      "quality_score": 4.0
+    },
+    {
+      "id": 13,
+      "topic": "team_dynamics",
+      "severity": "low",
+      "quality_score": 4.0
+    },
+    {
+      "id": 14,
+      "topic": "team_dynamics",
+      "severity": "medium",
+      "quality_score": 4.0
+    },
+    {
+      "id": 15,
+      "topic": "team_dynamics",
+      "severity": "high",
+      "quality_score": 4.0
+    },
+    {
+      "id": 16,
+      "topic": "psychological_safety",
+      "severity": "low",
+      "quality_score": 3.5
+    },
+    {
+      "id": 17,
+      "topic": "psychological_safety",
+      "severity": "medium",
+      "quality_score": 4.0
+    },
+    {
+      "id": 18,
+      "topic": "psychological_safety",
+      "severity": "high",
+      "quality_score": 3.0
+    },
+    {
+      "id": 19,
+      "topic": "emotional_exhaustion",
+      "severity": "medium",
+      "quality_score": 4.0
+    },
+    {
+      "id": 20,
+      "topic": "emotional_exhaustion",
+      "severity": "high",
+      "quality_score": 4.0
+    }
+  ],
+  "averages": {
+    "recall@4": 1.0,
+    "precision@4": 0.463,
+    "faithfulness_normalized": 0.925,
+    "answer_quality": 3.825
+  }
+}
