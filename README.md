@@ -65,7 +65,7 @@ Benchmarked on 20 scenarios across 7 topics (burnout, stress, motivation, leader
  
 ```bash
 # 1. Clone the repo
-git clone https://github.com/YOUR_USERNAME/D-RAGon_Psyche.git
+git clone https://github.com/Daddy-Myth/D-RAGon_Psyche.git
 cd D-RAGon_Psyche
  
 # 2. Create environment
