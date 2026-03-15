@@ -5,8 +5,6 @@
  
 📖 [Full Documentation → Notion](https://www.notion.so/D-RAGon_Psyche-Organizational-Psychology-Knowledge-Retrieval-System-311ff95a70998028839ed8f591fde4fe)
  
----
- 
 ## How It Works
  
 ```
@@ -20,8 +18,7 @@ Psychologist Synthesis (LLM) — 3 evidence-backed recommendations + cited sourc
     ↓
 Conversational Follow-up — history-aware free chat mode
 ```
- 
----
+
  
 ## Features
  
@@ -32,7 +29,6 @@ Conversational Follow-up — history-aware free chat mode
 - **Knowledge graph** — interactive Pyvis graph mapping questions → frameworks → parameters → literature
 - **Fully local** — no API fees, no data leaves your machine
  
----
  
 ## Tech Stack
  
@@ -46,7 +42,6 @@ Conversational Follow-up — history-aware free chat mode
 | Knowledge Graph | Pyvis |
 | Parameter Scoring | Matplotlib |
  
----
  
 ## Evaluation
  
@@ -58,8 +53,7 @@ Benchmarked on 20 scenarios across 7 topics (burnout, stress, motivation, leader
 | Precision@4 | **0.463** |
 | Faithfulness | **0.925 / 1.0** |
 | Answer Quality | **3.825 / 5.0** |
- 
----
+
  
 ## Setup
  
@@ -83,8 +77,7 @@ ollama pull llama3.1
  
 # 6. Open D-RAGon_Psyche_Production.ipynb and run all cells
 ```
- 
----
+
  
 ## Project Structure
  
@@ -99,7 +92,6 @@ D-RAGon_Psyche/
 └── README.md
 ```
  
----
  
 ## Knowledge Base
 
