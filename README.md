@@ -120,4 +120,5 @@ D-RAGon_Psyche/
 - Emotional Intelligence — Daniel Goleman
 - The Fearless Organization — Amy Edmondson
 
-
+## Knowledge Graph
+<img src="Mats/Knowledge_Graph.png" width="800">
