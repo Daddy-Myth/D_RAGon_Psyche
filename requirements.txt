@@ -1,0 +1,28 @@
+# GPU (CUDA 12.4) — replace with cpu build if needed
+# pip install torch --index-url https://download.pytorch.org/whl/cpu
+torch==2.6.0+cu124
+transformers==5.2.0
+tokenizers==0.22.2
+safetensors==0.7.0
+sentence-transformers==5.2.3
+langchain==1.2.10
+langchain-community==0.4.1
+langchain-chroma==1.1.0
+langchain-huggingface==1.2.0
+langchain-ollama==1.0.1
+langchain-text-splitters==1.1.1
+langchain-core==1.2.16
+chromadb==1.5.1
+pypdf==6.7.4
+gradio==6.9.0
+pyvis==0.3.2
+matplotlib==3.10.8
+pandas==3.0.1
+tqdm==4.67.3
+ipywidgets==8.1.8
+numpy==2.3.5
+scikit-learn==1.8.0
+huggingface_hub==1.5.0
+ipykernel==7.2.0
+jupyterlab==4.5.5
+notebook==7.5.4
