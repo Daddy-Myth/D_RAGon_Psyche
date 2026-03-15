@@ -132,5 +132,10 @@ D-RAGon_Psyche/
  
 ## Built By
  
-**Team Rambo** — Archit Yadav, Sneha Kushwaha, Sahib Taj Singh, Hardik Tyagi  
-*Hacked 4.0*
+Archit Yadav
+
+
+
+
+
+
