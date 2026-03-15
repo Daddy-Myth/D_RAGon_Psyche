@@ -128,14 +128,4 @@ D-RAGon_Psyche/
 - Emotional Intelligence — Daniel Goleman
 - The Fearless Organization — Amy Edmondson
 
----
- 
-## Built By
- 
-Archit Yadav
-
-
-
-
-
 
