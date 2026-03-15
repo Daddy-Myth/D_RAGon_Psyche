@@ -122,3 +122,9 @@ D-RAGon_Psyche/
 
 ## Knowledge Graph
 <img src="Mats/Knowledge_Graph.png" width="800">
+
+> **Note:** This is not a neural network diagram. Each node type represents a distinct 
+> layer in the RAG pipeline — intake **Questions** (blue ellipses) map to psychological 
+> **Frameworks** (green boxes), which activate specific **Parameters** (orange dots), 
+> which are grounded in **Literature** (purple diamonds). Edges show which frameworks 
+> and books are activated per question.
