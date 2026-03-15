@@ -1,0 +1,262 @@
+[
+  {
+    "id": 1,
+    "topic": "burnout",
+    "severity": "low",
+    "case_summary": "Employee notices early signs of disengagement and reduced enthusiasm.",
+    "answers": {
+      "q1": "Things are fine I guess, just not as exciting as they used to be.",
+      "q2": "I'm not tired exactly, just... flat. Like I don't really care either way.",
+      "q3": "Workload is normal, nothing crazy.",
+      "q4": "Team is okay. We get along but don't really talk much beyond work stuff."
+    },
+    "relevant_books": ["The Burnout Epidemic", "Industrial and Organizational Psychology"]
+  },
+  {
+    "id": 2,
+    "topic": "burnout",
+    "severity": "medium",
+    "case_summary": "Employee showing classic burnout symptoms with emotional exhaustion and cynicism.",
+    "answers": {
+      "q1": "I've started dreading Mondays. I used to love my job but now it feels like a grind.",
+      "q2": "Emotionally drained. I snap at people more than I should and I feel guilty about it.",
+      "q3": "The workload is heavy but manageable. It's more the emotional weight of everything.",
+      "q4": "My team is fine but I've pulled back from them. I don't have the energy to engage."
+    },
+    "relevant_books": ["The Burnout Epidemic", "Occupational Health Psychology", "Work and Organizational Psychology"]
+  },
+  {
+    "id": 3,
+    "topic": "burnout",
+    "severity": "high",
+    "case_summary": "Severe burnout with physical symptoms, complete disengagement and thoughts of quitting.",
+    "answers": {
+      "q1": "honestly dont even know where to start. ive been running on empty for months. thinking about just quitting.",
+      "q2": "cant sleep. constant headaches. cried in the bathroom last week which has never happened before.",
+      "q3": "way too much. i have no idea how anyone thinks this is sustainable.",
+      "q4": "everyone is just as burned out as me. we dont talk about it but you can see it."
+    },
+    "relevant_books": ["The Burnout Epidemic", "Occupational Health Psychology", "Work and Organizational Psychology"]
+  },
+  {
+    "id": 4,
+    "topic": "stress",
+    "severity": "low",
+    "case_summary": "Employee experiencing mild deadline pressure with manageable stress levels.",
+    "answers": {
+      "q1": "Just a bit more pressure than usual with an upcoming deadline.",
+      "q2": "Slightly on edge but nothing I can't handle.",
+      "q3": "Busy but okay. It'll calm down after next week.",
+      "q4": "Team is supportive, we're all in the same boat right now."
+    },
+    "relevant_books": ["Work and Organizational Psychology", "Occupational Health Psychology"]
+  },
+  {
+    "id": 5,
+    "topic": "stress",
+    "severity": "medium",
+    "case_summary": "Chronic stress from competing priorities and unclear expectations.",
+    "answers": {
+      "q1": "I keep getting pulled in different directions. My manager wants one thing, the client wants another.",
+      "q2": "Anxious most of the time. Hard to focus. I keep making small mistakes which makes it worse.",
+      "q3": "It's not the volume, it's the lack of clarity. I don't know what to prioritize.",
+      "q4": "People are nice but nobody really steps up to resolve the confusion."
+    },
+    "relevant_books": ["Work and Organizational Psychology", "Occupational Health Psychology", "Industrial and Organizational Psychology"]
+  },
+  {
+    "id": 6,
+    "topic": "stress",
+    "severity": "high",
+    "case_summary": "Acute stress from organizational crisis with severe physical and psychological impact.",
+    "answers": {
+      "q1": "Company is going through layoffs and nobody knows who's next. The atmosphere is toxic.",
+      "q2": "Panic attacks have started. I've never had those before. Can't concentrate at all.",
+      "q3": "Ironically lighter workload now because projects are on hold but the uncertainty is unbearable.",
+      "q4": "Team is falling apart. People are updating their CVs openly. Trust is gone."
+    },
+    "relevant_books": ["Occupational Health Psychology", "Work and Organizational Psychology", "The Burnout Epidemic"]
+  },
+  {
+    "id": 7,
+    "topic": "motivation",
+    "severity": "low",
+    "case_summary": "Employee experiencing mild motivational dip after completing a major project.",
+    "answers": {
+      "q1": "Just finished a big project and now everything feels a bit anticlimactic.",
+      "q2": "Low energy. Hard to get started on new things.",
+      "q3": "Light workload right now which maybe makes it worse.",
+      "q4": "Team is good. No issues there."
+    },
+    "relevant_books": ["Industrial and Organizational Psychology", "Organizational Behavior"]
+  },
+  {
+    "id": 8,
+    "topic": "motivation",
+    "severity": "medium",
+    "case_summary": "Employee feeling undervalued with declining intrinsic motivation.",
+    "answers": {
+      "q1": "I work hard but it goes unnoticed. Promotions go to people who are louder not better.",
+      "q2": "I've stopped going the extra mile. Why bother? It doesn't make a difference.",
+      "q3": "Workload is fine. I could do more but I've stopped trying.",
+      "q4": "Team is okay but competitive in an unhealthy way."
+    },
+    "relevant_books": ["Industrial and Organizational Psychology", "Organizational Behavior", "Work and Organizational Psychology"]
+  },
+  {
+    "id": 9,
+    "topic": "motivation",
+    "severity": "high",
+    "case_summary": "Complete motivational collapse with active disengagement and presenteeism.",
+    "answers": {
+      "q1": "i show up. i do the minimum. i leave. thats it now.",
+      "q2": "numb mostly. dont feel good or bad about work anymore. just... nothing.",
+      "q3": "workload doesnt matter when you dont care about any of it",
+      "q4": "dont really have a team anymore. remote work killed whatever we had."
+    },
+    "relevant_books": ["The Burnout Epidemic", "Industrial and Organizational Psychology", "Organizational Behavior"]
+  },
+  {
+    "id": 10,
+    "topic": "leadership",
+    "severity": "low",
+    "case_summary": "Employee mildly frustrated with inconsistent feedback from manager.",
+    "answers": {
+      "q1": "My manager gives feedback but it changes depending on their mood. Hard to know what they really want.",
+      "q2": "Mildly frustrated but not losing sleep over it.",
+      "q3": "Workload is fine.",
+      "q4": "Team works well together independently, we don't rely on the manager much."
+    },
+    "relevant_books": ["Organizational Behavior", "Industrial and Organizational Psychology"]
+  },
+  {
+    "id": 11,
+    "topic": "leadership",
+    "severity": "medium",
+    "case_summary": "Toxic leadership causing psychological distress and reduced performance.",
+    "answers": {
+      "q1": "My manager publicly criticizes people in meetings. It's humiliating and demoralizing.",
+      "q2": "I feel anxious before every team meeting. I've started second guessing everything I do.",
+      "q3": "The work itself is manageable but the fear of being called out makes everything harder.",
+      "q4": "We don't support each other because we're all just trying to avoid being the next target."
+    },
+    "relevant_books": ["Organizational Behavior", "Work and Organizational Psychology", "Occupational Health Psychology"]
+  },
+  {
+    "id": 12,
+    "topic": "leadership",
+    "severity": "high",
+    "case_summary": "Abusive leadership causing trauma responses and high turnover intent.",
+    "answers": {
+      "q1": "My manager is abusive. Screaming, personal insults. HR knows and does nothing.",
+      "q2": "I have nightmares about work. My therapist says I'm showing signs of workplace trauma.",
+      "q3": "Doesn't matter. Even easy tasks feel impossible in this environment.",
+      "q4": "Half the team has quit in 6 months. Those of us left are just waiting for a way out."
+    },
+    "relevant_books": ["Occupational Health Psychology", "Organizational Behavior", "Work and Organizational Psychology"]
+  },
+  {
+    "id": 13,
+    "topic": "team_dynamics",
+    "severity": "low",
+    "case_summary": "Minor communication gaps in a newly formed remote team.",
+    "answers": {
+      "q1": "New team, still figuring out how to work together remotely.",
+      "q2": "A bit uncertain but not stressed.",
+      "q3": "Workload is reasonable.",
+      "q4": "People seem nice but we haven't really gelled yet."
+    },
+    "relevant_books": ["Organizational Behavior", "Work and Organizational Psychology"]
+  },
+  {
+    "id": 14,
+    "topic": "team_dynamics",
+    "severity": "medium",
+    "case_summary": "Team conflict affecting collaboration and individual wellbeing.",
+    "answers": {
+      "q1": "There's a lot of tension between me and a colleague and it's affecting my ability to focus.",
+      "q2": "I feel anxious going into meetings and I've started avoiding collaboration altogether.",
+      "q3": "Workload is fine but the toxic atmosphere makes everything harder.",
+      "q4": "The team is divided, there are clear sides and my manager isn't addressing it at all."
+    },
+    "relevant_books": ["Organizational Behavior", "Work and Organizational Psychology", "Occupational Health Psychology"]
+  },
+  {
+    "id": 15,
+    "topic": "team_dynamics",
+    "severity": "high",
+    "case_summary": "Complete team breakdown with interpersonal hostility and isolation.",
+    "answers": {
+      "q1": "Someone on my team has been spreading rumors about me. It's become a hostile environment.",
+      "q2": "I feel isolated and paranoid. I don't trust anyone at work anymore.",
+      "q3": "Can't focus so everything takes longer than it should.",
+      "q4": "It's every person for themselves. No collaboration. Just politics."
+    },
+    "relevant_books": ["Organizational Behavior", "Occupational Health Psychology", "Work and Organizational Psychology"]
+  },
+  {
+    "id": 16,
+    "topic": "psychological_safety",
+    "severity": "low",
+    "case_summary": "Employee hesitant to share ideas due to mild fear of judgment.",
+    "answers": {
+      "q1": "I have ideas but I hold back in meetings because I'm not sure they'll land well.",
+      "q2": "Just a bit self-conscious. Nothing major.",
+      "q3": "Workload is fine.",
+      "q4": "Team is professional but not particularly warm or encouraging."
+    },
+    "relevant_books": ["Organizational Behavior", "Industrial and Organizational Psychology"]
+  },
+  {
+    "id": 17,
+    "topic": "psychological_safety",
+    "severity": "medium",
+    "case_summary": "Employee silenced by past negative reactions to speaking up.",
+    "answers": {
+      "q1": "Last time I raised a concern I was dismissed in front of everyone. Haven't spoken up since.",
+      "q2": "I feel invisible. My contributions don't seem to matter.",
+      "q3": "Normal workload.",
+      "q4": "The team follows whoever is loudest. Quieter people like me get overlooked."
+    },
+    "relevant_books": ["Organizational Behavior", "Work and Organizational Psychology", "Industrial and Organizational Psychology"]
+  },
+  {
+    "id": 18,
+    "topic": "psychological_safety",
+    "severity": "high",
+    "case_summary": "Complete suppression of voice due to fear of retaliation in a high-stakes environment.",
+    "answers": {
+      "q1": "I witnessed something unethical but I'm terrified to report it. People who do get pushed out.",
+      "q2": "Constant dread. I feel complicit but also trapped.",
+      "q3": "Work piles up because I'm too distracted by the situation to focus.",
+      "q4": "Culture of silence. Everyone knows but nobody talks."
+    },
+    "relevant_books": ["Organizational Behavior", "Occupational Health Psychology", "Work and Organizational Psychology"]
+  },
+  {
+    "id": 19,
+    "topic": "emotional_exhaustion",
+    "severity": "medium",
+    "case_summary": "Customer-facing employee experiencing emotional labour fatigue.",
+    "answers": {
+      "q1": "I deal with difficult clients all day and have to stay calm and professional no matter what.",
+      "q2": "By the end of the day I have nothing left emotionally. I'm irritable with my family.",
+      "q3": "The volume of interactions is high and draining even when nothing goes wrong.",
+      "q4": "My team gets it but we're all in the same situation so we can't really support each other."
+    },
+    "relevant_books": ["Work and Organizational Psychology", "Occupational Health Psychology", "The Burnout Epidemic"]
+  },
+  {
+    "id": 20,
+    "topic": "emotional_exhaustion",
+    "severity": "high",
+    "case_summary": "Healthcare worker with severe emotional exhaustion and compassion fatigue.",
+    "answers": {
+      "q1": "I'm a nurse. I've stopped feeling things when patients are in pain. That scares me.",
+      "q2": "Detached. Empty. I used to care deeply about my patients. Now I just go through the motions.",
+      "q3": "Short staffed constantly. The workload is dangerous.",
+      "q4": "We're all just surviving. Nobody talks about how we actually feel."
+    },
+    "relevant_books": ["The Burnout Epidemic", "Occupational Health Psychology", "Work and Organizational Psychology"]
+  }
+]
